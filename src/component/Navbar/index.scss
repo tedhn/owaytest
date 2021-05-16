@@ -1,0 +1,93 @@
+.navbar {
+  width: 100%;
+  height: 150px;
+
+  .title {
+    margin-left: 50px;
+    position: relative;
+    top: 50%;
+    cursor: pointer;
+  }
+
+  .timeStamp {
+    position: relative;
+    width: 300px;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+
+    .lineWrapper {
+      display: flex;
+      flex-direction: row;
+
+      .line {
+        width: 200px;
+        height: 5px;
+        display: flex;
+        margin: auto 10px;
+        border-radius: 5px;
+        background: rgba(160, 160, 160, 0.4);
+      }
+
+      .time {
+        font-size: 18px;
+        letter-spacing: 2px;
+        font-weight: 500;
+      }
+    }
+
+    .duration {
+      padding-top: 10px;
+      margin: auto;
+    }
+  }
+
+  .verticalLine {
+    width: 5px;
+    height: 85%;
+    position: relative;
+    top: -60px;
+    left: 60%;
+    border-right: 3px dashed rgba(160, 160, 160, 0.2);
+  }
+
+  .promotion {
+    position: relative;
+    left: 75%;
+    top: -100%;
+    width: 150px;
+    text-align: right;
+
+    .text {
+      font-size: 12px;
+      font-weight: 500;
+    }
+
+    .current {
+      font-size: 18px;
+      color: rgb(43, 75, 255);
+      font-weight: 700;
+    }
+    .old {
+      font-size: 12px;
+      text-decoration: line-through;
+      color: rgba(160, 160, 160, 0.8);
+    }
+  }
+
+  .button {
+    position: relative;
+    left: 87%;
+    top: -135%;
+    cursor: pointer;
+    width: 100px;
+    text-align: center;
+    margin: 0;
+    color: white;
+    background-color: rgb(255, 180, 40);
+    border-radius: 5px;
+    padding: 10px;
+  }
+}

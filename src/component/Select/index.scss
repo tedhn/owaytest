@@ -1,0 +1,93 @@
+.selectWrapper {
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+
+  justify-content: center;
+  align-items: center;
+  .seatWrapper {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    .seats {
+      display: flex;
+      flex-direction: row;
+
+      .r {
+        display: flex;
+        flex-direction: column-reverse;
+
+        .c {
+          width: 40px;
+          height: 40px;
+          color: white;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 5px;
+          margin: 5px;
+        }
+
+        .space {
+          width: 40px;
+          height: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 5px;
+          margin: 5px;
+          user-select: none;
+        }
+      }
+    }
+
+    .legend {
+      display: flex;
+      flex-direction: row;
+      margin: 15px;
+      width: 100%;
+      justify-content: center;
+
+      .item {
+        margin: 20px 10px;
+        display: flex;
+        flex-direction: row;
+
+        .text {
+          font-size: 15px;
+          text-align: center;
+          margin-left: 10px;
+        }
+
+        .available {
+          background-color: rgb(62, 168, 255);
+          height: 10px;
+          width: 10px;
+          border-radius: 20px;
+          margin: auto;
+        }
+        .booked {
+          background-color: rgb(0, 107, 194);
+          height: 10px;
+          width: 10px;
+          border-radius: 20px;
+          margin: auto;
+        }
+        .blocked {
+          background-color: rgb(138, 138, 138);
+          height: 10px;
+          width: 10px;
+          border-radius: 20px;
+          margin: auto;
+        }
+        .BBL {
+          background-color: rgb(255, 32, 32);
+          height: 10px;
+          width: 10px;
+          border-radius: 20px;
+          margin: auto;
+        }
+      }
+    }
+  }
+}

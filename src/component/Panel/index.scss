@@ -1,0 +1,47 @@
+.panel {
+  width: 300px;
+  margin: auto;
+
+  .text {
+    margin: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    color: black;
+  }
+
+  .pricelist {
+    border-radius: 5px;
+    border: 1px solid rgba(160, 160, 160, 0.5);
+    .list {
+      min-height: 100px;
+      margin: 10px 50px;
+
+      .item {
+        padding: 10px;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        color: white;
+        background-color: rgb(255, 180, 40);
+      }
+    }
+
+    .price {
+      padding: 10px 15px;
+      border-top: 3px dashed rgba(160, 160, 160, 0.5);
+    }
+  }
+
+  .button {
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(255, 180, 40);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}

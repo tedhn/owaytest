@@ -1,0 +1,29 @@
+.App {
+  .tab {
+    display: flex;
+    flex-direction: row;
+    border-top: 3px dashed rgba(160, 160, 160, 0.5);
+    border-bottom: 3px dashed rgba(160, 160, 160, 0.5);
+
+    color: rgb(47, 47, 243);
+    font-size: 16px;
+    font-weight: 700;
+    height: 50px;
+
+    div {
+      height: 50px;
+      margin: 0 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+  }
+
+  .screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+  }
+}
